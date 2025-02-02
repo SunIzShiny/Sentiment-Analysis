@@ -8,7 +8,7 @@ Tools used:
   scikit-learn
 
 To run this :
-https://sentiment-analysis-estwaryhkgceczax9ka2do.streamlit.app
+https://sentiment-analysis-55.streamlit.app
 
 This was deployed using streamlit
 
