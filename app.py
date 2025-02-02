@@ -3,6 +3,8 @@ import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os
 
+import nltk
+nltk.download('stopwords')
 model_filename = 'model.sav'
 vectorizer_filename = 'vectorizer.sav'
 
