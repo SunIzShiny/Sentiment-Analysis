@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
+import os
 
-model_filename = 'F:\\6thSem\\Nlp_SentimenAnalysis\\model.sav'
-vectorizer_filename = 'F:\\6thSem\\Nlp_SentimenAnalysis\\vectorizer.sav'
+model_filename = 'model.sav'
+vectorizer_filename = 'vectorizer.sav'
 
 with open(model_filename, 'rb') as model_file:
     model = pickle.load(model_file)
