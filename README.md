@@ -1,4 +1,4 @@
-Sentiment Analysis using logistic regression
+Sentiment Analysis using logistic regression.
 Tools used:
   nltk
   scikit
