@@ -1,7 +1,6 @@
 Sentiment Analysis using logistic regression.
 Tools used:
   nltk
-  scikit
   pickle
   pandas
   numpy
